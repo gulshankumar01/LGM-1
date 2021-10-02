@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>SoloShop.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<style>
+    .mySlides {
+        display: none
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .zoom {
+        padding: 40px;
+        transition: transform .2s;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    
+    .zoom:hover {
+        -ms-transform: scale(1.5);
+        /* IE 9 */
+        -webkit-transform: scale(1.5);
+        /* Safari 3-8 */
+        transform: scale(1.5);
+    }
+    
+    .col-sm-1 {
+        padding: 12px 132px 238px 62px;
+        margin: 25px -23px 37px 19px;
+    }
+</style>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card" style=" padding: 15px; font-size: 15px;">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Products</a>
+            <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Deals</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Stores</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="#" class="w3-bar-item w3-button">Kids Fahion</a>
+                    <a href="#" class="w3-bar-item w3-button">Boys Fashion</a>
+                    <a href="#" class="w3-bar-item w3-button">Men's Fashion</a>
+                    <a href="#" class="w3-bar-item w3-button">Home Appliances</a>
+                    <a href="#" class="w3-bar-item w3-button">Gold</a>
+                    <a href="#" class="w3-bar-item w3-button">Electronics</a>
+                    <a href="#" class="w3-bar-item w3-button">Furniture</a>
+                    <a href="#" class="w3-bar-item w3-button">BOOKS</a>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+            <img src="buy.jpg" class="img-responsive" style="width:100%; height: 445px; ">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small ">
+
+
+
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center ">
+            <img src="image.png " class="img-responsive" style="width:100% ;height: 445px; ">
+            <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-22 w3-hide-medium ">
+
+
+
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center ">
+            <img src="lal.jpg" class="img-responsive" style="width:100% ;height: 445px; ">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small ">
+                <div class="zoom">
+                    <h3 style="color:black;font-size: 45px;font-family: cursive; font-style: inherit; ">SoloShop.com</h3>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>
+        &bigstar; &bigstar; Deals of the Day</h1>
+    <hr>
+    <div class="row">
+        <div class="col-sm-1">
+
+            <div class="zoom">
+                <a href="#"> <img src="ghari.jpeg" class="img-responsive
+                    " style="height: 200px; width:
+                    200px" alt=""></a>
+                <br> <b>
+                    <div class="footer"><b>Sonata Watch  <br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 5000 </p> </b></div>
+            </b>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="saree.jpeg" class="img-responsive
+                    " style="height: 200px;; width:
+                    200px" alt=""></a>
+            <br>
+            <div class="footer"><b>Fancy Black saree<br> <p style="color: rgb(255, 87, 8); ">From &#x20b9; 5000+12% off </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="jeans.jpeg" class="img-responsive
+                    " style="height: 200px; width:
+                    200px" alt=""></a>
+            <br>
+            <div class="footer"><b>Mens Jeans <br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 500</p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="jack.jpg" class="img-responsive
+                    " style="height: 200px; width:
+                    200px" alt=""></a>
+            <br>
+            <div class="footer"><b>Din Men's Coat Jacket <br> <p style="color: rgb(255, 87, 8); ">From &#x20b9; 1290 </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="glass.jpg" class="img-responsive
+                    " style="height: 200px; width:
+                    200px" alt=""></a>
+            <br>
+            <div class="footer"><b>Sun glass <br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 500 </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="girls dreeses.jpeg" class="img-responsive
+                    " style="height: 200px; width:
+                    200px" alt=""></a>
+            <br>
+            <div class="footer"><b>Girl's Clothes<br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 1233 +56% off </p> </b></div>
+        </div>
+
+
+    </div>
+
+    </div>
+    <br><br>
+
+    <hr>
+    <h1> &bigstar;&bigstar; Men's Footwear</h1>
+
+    <hr>
+    <div class="row">
+        <div class="col-sm-1">
+
+            <div class="zoom">
+                <a href="#"> <img src="nike.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+                <br> <b>
+                <div class="footer"><b>NIKE SPORT SHOES <br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 1000 </p> </b></div>
+            </b>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="bata.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>BATA <br> <p style="color: rgb(255, 87, 8); ">From &#x20b9; 500+12% off </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="converse.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>CONVERSE SHOESbr> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 500</p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="shoes.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>COLOURFUL SHOES<br> <p style="color: rgb(255, 87, 8); ">From &#x20b9; 1290 </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="sparks.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>SPARK SHOE <br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 500 </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="sparky.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>SPARKY SHOE<br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 1233 +56% off </p> </b></div>
+        </div>
+
+
+    </div>
+
+
+    </div>
+    <br><br>
+
+    <h1> &bigstar; &bigstar; Girl's Clothes</h1>
+
+
+    <hr>
+    <div class="row">
+        <div class="col-sm-1">
+
+            <div class="zoom">
+                <a href="#"> <img src="saree.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+                <br> <b>
+                <div class="footer"><b>BLACK SAREE<br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 5000 </p> </b></div>
+            </b>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="orange kurti.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>ORANGE KURTI<br> <p style="color: rgb(255, 87, 8); ">From &#x20b9; 5000+12% off </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="black kurti.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>BLACK KURTI <br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 500</p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="tops night.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>TOPS NIGHTY & MORE<br> <p style="color: rgb(255, 87, 8); ">From &#x20b9; 1290 </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="kurti.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>GIRLS KURTI<br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 500 </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="gowns.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>GOWNS COLLECTION<br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 1233 +56% off </p> </b></div>
+        </div>
+
+
+    </div>
+
+
+    </div>
+    <br><br>
+
+    <h1> &bigstar; &bigstar; Men's Clothes</h1>
+
+    <hr>
+    <div class="row">
+        <div class="col-sm-1">
+
+            <div class="zoom">
+                <a href="#"> <img src="kurta.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+                <br> <b>
+                <div class="footer"><b>CASUAL SHIRTS<br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 5000 </p> </b></div>
+            </b>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="shirt.jpg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>KURTA PAJAMA<br> <p style="color: rgb(255, 87, 8); ">From &#x20b9; 5000+12% off </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="jeans.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>Mens Jeans <br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 500</p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="jack.jpg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>MEN'S JACKET<br> <p style="color: rgb(255, 87, 8); ">From &#x20b9; 1290 </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="tshirt.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>T-SHIRT HALF <br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 500 </p> </b></div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-1">
+
+        <div class="zoom">
+            <a href="#"> <img src="pmd fashion.jpeg" class="img-responsive
+                " style="height: 200px; width:
+                200px" alt=""></a>
+            <br>
+            <div class="footer"><b>PMD FASHION & MORE<br> <p style="color: rgb(255, 87, 8); ">Price &#x20b9; 1233 +56% off </p> </b></div>
+        </div>
+
+
+    </div>
+
+    </div>
+    <br><br>
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-gray w3-xlarge ">
+        <i class="fa fa-facebook-official w3-hover-opacity "></i> &nbsp;
+        <i class="fa fa-instagram w3-hover-opacity "></i> &nbsp;
+        <i class="fa fa-snapchat w3-hover-opacity "></i> &nbsp;
+        <i class="fa fa-pinterest-p w3-hover-opacity "></i> &nbsp;
+        <i class="fa fa-twitter w3-hover-opacity "></i> &nbsp;
+        <i class="fa fa-linkedin w3-hover-opacity "></i> &nbsp;
+        <p class="w3-large ">Powered by
+            <a href="#" target="_blank ">
+                <h2>Soloshop.com</h2>
+            </a>
+            <br> <br>
+            <h3>| VIPUL KUMAR | LetsGrowMore |</h3>
+
+        </p>
+
+
+
+
+        <div class="w3-container w3-content w3-padding-64 " style="max-width:800px " id="contact ">
+            <h2 class="w3-wide w3-center ">CONTACT</h2>
+            <p class="w3-opacity w3-center "><i>Fan? Drop a note!</i></p>
+            <div class="w3-row w3-padding-32 ">
+                <div class="w3-col m6 w3-large w3-margin-bottom ">
+                    <i class="fa fa-map-marker " style="width:30px "></i> Patna ,Bihar<br>
+                    <i class="fa fa-phone " style="width:30px "></i> Phone: 0987643457 <br>
+                    <i class="fa fa-envelope " style="width:30px "> </i> Email: vkumarchaurasia98@gmail.com<br>
+                </div>
+                <div class="w3-col m6 ">
+                    <form action="/action_page.php " target="_blank ">
+                        <div class="w3-row-padding " style="margin:0 -16px 8px -16px ">
+                            <div class="w3-half ">
+                                <input class="w3-input w3-border " type="text " placeholder="Name " required name="Name ">
+                            </div>
+                            <div class="w3-half ">
+                                <input class="w3-input w3-border " type="text " placeholder="Email " required name="Email ">
+                            </div>
+                        </div>
+                        <input class="w3-input w3-border " type="text " placeholder="Message " required name="Message ">
+                        <button class="w3-button w3-black w3-section w3-right " type="submit ">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script>
+        // Automatic Slideshow - change image every 4 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides ");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none ";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block ";
+            setTimeout(carousel, 4000);
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo ");
+            if (x.className.indexOf("w3-show ") == -1) {
+                x.className += " w3-show ";
+            } else {
+                x.className = x.className.replace(" w3-show ", " ");
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        var modal = document.getElementById('ticketModal');
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none ";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
